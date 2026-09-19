@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>كل سنة وأنتِ طيبة</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Tajawal for clean, modern, friendly Arabic typography -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Tailwind Configuration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              tajawal: ["Tajawal", "sans-serif"],
+            },
+            colors: {
+              darkBg: "#121214",
+              cardBg: "#1a1a1e",
+              cardBorder: "#27272f",
+              accentGold: "#d4af37",
+              softMuted: "#9ca3af",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Tajawal", sans-serif;
+        background-color: #121214;
+        color: #f3f4f6;
+        overflow-x: hidden;
+      }
+      .moody-card {
+        background: #1a1a1e;
+        border: 1px solid #27272f;
+        box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+      }
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #121214;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #27272f;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body
+    class="min-h-screen relative selection:bg-[#d4af37] selection:text-black"
+  >
+    <!-- Main Container -->
+    <main class="max-w-3xl mx-auto px-4 py-12 space-y-24">
+      <!-- Section 1: Greeting -->
+      <section class="text-center space-y-6 pt-6">
+        <div
+          class="inline-block px-4 py-1.5 rounded-full bg-[#1a1a1e] border border-[#27272f] text-xs font-medium text-[#d4af37]"
+        >
+          كل سنة وأنتِ توتي
+        </div>
+        <h1 class="text-3xl md:text-5xl font-bold text-white leading-tight">
+          أجمل حاجة حصلتلي
+        </h1>
+        <p
+          class="text-[#9ca3af] text-base md:text-lg max-w-xl mx-auto leading-relaxed"
+        >
+          النهارده مش بس عيد ميلادك، ده اليوم اللي دنيتي بقت أهدى وأحلى بوجودك.
+          حبيت أعمل المكان ده عشان أجمع فيه شوية من كلامي وذكرياتنا.
+        </p>
+      </section>
+
+      <!-- Scattered Photos Group 1 (3 photos) -->
+      <div class="grid grid-cols-3 gap-3 md:gap-4 -rotate-1">
+        <div
+          class="moody-card rounded-2xl overflow-hidden aspect-square transform hover:scale-[1.02] transition-transform"
+        >
+          <img
+            src="memory-1.jpeg"
+            alt="memory"
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </div>
+        <div
+          class="moody-card rounded-2xl overflow-hidden aspect-square transform translate-y-3 hover:scale-[1.02] transition-transform"
+        >
+          <img
+            src="memory-2.jpeg"
+            alt="memory"
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </div>
+        <div
+          class="moody-card rounded-2xl overflow-hidden aspect-square transform -translate-y-2 hover:scale-[1.02] transition-transform"
+        >
+          <img
+            src="memory-3.jpeg"
+            alt="memory"
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </div>
+      </div>
+
+      <!-- Section 2: Comfort and Safety -->
+      <section class="moody-card p-8 md:p-10 rounded-3xl space-y-4">
+        <h2 class="text-xl font-bold text-white flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-[#d4af37]"></span>
+          الراحة والأمان معاكِ
+        </h2>
+        <p
+          class="text-[#9ca3af] text-base md:text-lg leading-relaxed font-light"
+        >
+          عارفة؟ أكتر حاجة بحبها هي الراحة اللي بحسها لما بكون معاكي. وسط ضغوط
+          الدنيا دي كلها، صوتك وقعدتك هما المكان الهادي اللي برتاح فيه. ببقى
+          معاكي على طبيعتي خالص من غير أي تكلف، وعارف إنك دايماً في ضهري في اي
+          وقت بحتاجك فيه.
+        </p>
+      </section>
+
+      <!-- Scattered Photos Group 2 (4 photos) -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="moody-card rounded-2xl overflow-hidden aspect-square">
+          <img
+            src="memory-4.jpeg"
+            alt="memory"
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </div>
+        <div
+          class="moody-card rounded-2xl overflow-hidden aspect-[4/5] md:translate-y-4"
+        >
+          <img
+            src="memory-5.jpeg"
+            alt="memory"
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </div>
+        <div class="moody-card rounded-2xl overflow-hidden aspect-square">
+          <img
+            src="memory-6.jpeg"
+            alt="memory"
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </div>
+        <div
+          class="moody-card rounded-2xl overflow-hidden aspect-[4/5] md:-translate-y-4"
+        >
+          <img
+            src="memory-7.jpeg"
+            alt="memory"
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </div>
+      </div>
+
+      <!-- Section 3: Growth and Challenges -->
+      <section class="moody-card p-8 md:p-10 rounded-3xl space-y-4">
+        <h2 class="text-xl font-bold text-white flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-[#d4af37]"></span>
+          هنعدي كل حاجة سوا ونبقى أقوى
+        </h2>
+        <p
+          class="text-[#9ca3af] text-base md:text-lg leading-relaxed font-light"
+        >
+          طبيعي أي اتنين بيعدوا بظروف ومشاكل، بس أنا واثق فينا. واثق إننا مهما
+          تقابلنا حاجة، نقدر نعديها بحبنا وتفاهمنا. احنا نستاهل بعض بجد. وأنا
+          متأكد إنك بوجودك معايا بتخليني أبقى نسخة أحسن من نفسي، وأنا كمان هعمل
+          المستحيل عشان أكون راجل يستاهلك وتكوني أسعد واحدة، وتبقي أحسن نسخة من
+          نفسك عشاني وعشاننا.
+        </p>
+      </section>
+
+      <!-- Scattered Photos Group 3 (5 photos) -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+        <div class="moody-card rounded-2xl overflow-hidden aspect-square">
+          <img
+            src="memory-8.jpeg"
+            alt="memory"
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </div>
+        <div
+          class="moody-card rounded-2xl overflow-hidden aspect-square sm:translate-y-3"
+        >
+          <img
+            src="memory-9.jpeg"
+            alt="memory"
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </div>
+        <div class="moody-card rounded-2xl overflow-hidden aspect-square">
+          <img
+            src="memory-10.jpeg"
+            alt="memory"
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </div>
+        <div
+          class="moody-card rounded-2xl overflow-hidden aspect-square sm:-translate-y-2"
+        >
+          <img
+            src="memory-11.jpeg"
+            alt="memory"
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </div>
+        <div class="moody-card rounded-2xl overflow-hidden aspect-square">
+          <img
+            src="memory-12.jpeg"
+            alt="memory"
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+          />
+        </div>
+      </div>
+
+      <!-- Section 4: Future and Happiness -->
+      <section class="moody-card p-8 md:p-10 rounded-3xl space-y-4">
+        <h2 class="text-xl font-bold text-white flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-[#d4af37]"></span>
+          الي جاي هيكون احسن
+        </h2>
+        <p
+          class="text-[#9ca3af] text-base md:text-lg leading-relaxed font-light"
+        >
+          أنا كل همي في الدنيا دي إنك تكوني مرتاحة ومبسوطة. الشخص اللي بجد بلاقي
+          منه الحب والراحة هو إنتِ. ممتن لكل دقيقة عشناها، ومستني كل الأيام
+          الجاية اللي هنبني فيها حياتنا سوا.
+        </p>
+      </section>
+
+      <!-- Scattered Photos Group 4 (Remaining 28 slots for a total of 40 unnumbered memories) -->
+      <div class="space-y-4">
+        <div class="grid grid-cols-3 sm:grid-cols-4 gap-3">
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-13.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-14.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-15.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-16.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-17.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-18.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-19.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-20.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-21.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-22.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-23.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-24.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-25.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-26.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-27.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-28.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-29.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-30.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-31.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-32.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-33.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-34.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-35.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-36.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-37.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-38.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-39.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="moody-card rounded-xl overflow-hidden aspect-square hover:opacity-100 opacity-80 transition-opacity"
+          >
+            <img
+              src="memory-40.jpeg"
+              alt="memory"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="text-center py-12 space-y-3 border-t border-[#27272f]">
+        <p class="text-sm font-medium text-white">
+          كل سنة وأنتِ أقرب الناس لقلبي.
+        </p>
+        <p class="text-xs text-[#9ca3af]">مكتوب بكل حب عشانك.</p>
+      </footer>
+    </main>
+
+    <!-- JavaScript Application Logic -->
+    <script>
+      // Initialize Lucide Icons
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
